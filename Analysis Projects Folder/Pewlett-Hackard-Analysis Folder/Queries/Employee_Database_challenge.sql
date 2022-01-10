@@ -83,7 +83,7 @@ FROM titles t
 JOIN employees e
 ON e.emp_no = t.emp_no
 WHERE e.birth_date > '1955-12-31'
-AND t.to_date = '9999-01-01'; 
+AND t.to_date = '9999-01-01';
 
 -- Salaries (retiring)
 SELECT count(*) AS number_retirees, ROUND(AVG(s.salary), 2) AS average_salary
@@ -92,8 +92,16 @@ JOIN public.unique_titles u
 ON u.emp_no = s.emp_no;
 
 -- Salaries total
-SELECT COUNT(*) AS current_employees, ROUND(AVG(s.salary), 2) AS average_salary
+SELECT COUNT(*) AS current_employees, ROUND(AVG(s.salary), 2)
+AS average_salary
 FROM dept_emp de
 JOIN salaries s
 ON s.emp_no = de.emp_no
 WHERE de.to_date = '9999-01-01';
+
+-- Average Salary of Remaining Employee_Challenge_starter_codeSELECT COUNT(*) AS remaining_employees, ROUND(AVG(s.salary), 2)
+AS average_salary
+FROM public.remaining_emp re
+JOIN salaries s
+ON s.emp_no = re.emp_no
+WHERE re.to_date = '9999-01-01';
