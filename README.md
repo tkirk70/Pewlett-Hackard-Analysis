@@ -31,9 +31,13 @@ Results:
 There is a bulleted list with four major points from the two analysis deliverables. (6 pt)
 Summary:
 
-The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
+How many employees are potentially leaving?  What percentage of the current workforce would that represent?
+- This 'silver tsunami' could be disruptive to the company since more than 30% of the staff are slated for retirement.
 
 <img width="551" alt="Percent_Emp_Leaving" src="https://user-images.githubusercontent.com/46324081/148718615-a7bb6a05-eec3-44a5-ba38-fcd32d897751.PNG">
+
+Will Pewlett-Hackard have enough remaining staff to train possibly 70,000 new-hires replacing the retirees?
+- It looks like there could be a problem if all retirees are replaced with new-hires.  The company only has 1,549 mentors for a potential influx of more than 70,000 new workers - a 46 to 1 ratio.
 
 <img width="551" alt="mentee_mentor" src="https://user-images.githubusercontent.com/46324081/148729443-3aae5e46-ae94-4bff-b108-258f7f80fbd6.PNG">
 
@@ -47,6 +51,8 @@ Figure out average age before and after the departures.
 
    <img width="392" alt="avg_age_remaining" src="https://user-images.githubusercontent.com/46324081/148790176-9706368b-1730-45db-b882-2d07355393fe.PNG">
    
+   The average age will drop by more than 6.5 years if all retirement eligible employees leave.  According to the [U.S. Bureau of Labor Statistics](https://www.bls.gov/emp/tables/median-age-labor-force.htm) the median age in the American workforce in 2020 was 42.0 years old.  Pewlett-Hackard might want to think about hiring some younger employees to stay relavent into the mid 21st Century.
+   
 How will salaries be affected?
 
    Retirees and average salary
@@ -56,3 +62,5 @@ How will salaries be affected?
    Remaining employees and average salary
    
    <img width="435" alt="avg_remaining_salary" src="https://user-images.githubusercontent.com/46324081/148797983-7cb0c81d-4c0c-4e10-9413-bf8477a7673c.PNG">
+   
+   Unfortunately there will not be any savings with an exodus of senior staff leaving.  Average salaries for remaining employees are about the same as for those leaving.
