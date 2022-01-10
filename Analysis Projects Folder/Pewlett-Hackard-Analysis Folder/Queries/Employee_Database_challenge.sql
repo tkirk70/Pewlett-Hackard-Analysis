@@ -66,20 +66,24 @@ JOIN unique_titles u
 ON u.emp_no = e.emp_no;
 
 -- Avg age - How to work with ROUND and Double Precision?
-SELECT COUNT(u.emp_no), AVG(DATE_PART('year', NOW()::date) - DATE_PART('year', e.birth_date::date)) AS avg_age
+SELECT COUNT(u.emp_no) AS retirees,
+	AVG(DATE_PART('year', NOW()::date) -
+	DATE_PART('year', e.birth_date::date)) AS avg_age
 FROM employees e
 JOIN unique_titles u
 ON u.emp_no = e.emp_no;
 
 -- Avg Age of Remaining employees
-SELECT COUNT(DISTINCT(t.emp_no)),
-AVG(DATE_PART('year', NOW()::date) - DATE_PART('year', e.birth_date::date))
+SELECT COUNT(DISTINCT(t.emp_no))
+AS remaining_employees,
+AVG(DATE_PART('year', NOW()::date) -
+	DATE_PART('year', e.birth_date::date))
 AS avg_age
 FROM titles t
 JOIN employees e
 ON e.emp_no = t.emp_no
 WHERE e.birth_date > '1955-12-31'
-AND t.to_date = '9999-01-01';
+AND t.to_date = '9999-01-01'; 
 
 -- Salaries (retiring)
 SELECT count(*) AS number_retirees, ROUND(AVG(s.salary), 2) AS average_salary
