@@ -34,3 +34,5 @@ Summary:
 The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
 
 <img width="551" alt="Percent_Emp_Leaving" src="https://user-images.githubusercontent.com/46324081/148718615-a7bb6a05-eec3-44a5-ba38-fcd32d897751.PNG">
+
+<img width="551" alt="mentor_mentee" src="https://user-images.githubusercontent.com/46324081/148719302-65b967a1-cbda-4d62-93d2-2fd1eea615e6.PNG">
