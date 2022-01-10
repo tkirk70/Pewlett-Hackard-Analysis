@@ -38,7 +38,8 @@ The summary addresses the two questions and contains two additional queries or t
 <img width="551" alt="mentee_mentor" src="https://user-images.githubusercontent.com/46324081/148729443-3aae5e46-ae94-4bff-b108-258f7f80fbd6.PNG">
 
 Figure out average age before and after the departures.
-Average age of retirees:
+Average age of retirees
 <img width="392" alt="avg_age_retiree" src="https://user-images.githubusercontent.com/46324081/148789858-1623a0c7-6a44-4c9f-972f-a129175151c2.PNG">
 
-Average age of remaining workers:
+Average age of remaining workers
+<img width="392" alt="avg_age_remaining" src="https://user-images.githubusercontent.com/46324081/148790176-9706368b-1730-45db-b882-2d07355393fe.PNG">
