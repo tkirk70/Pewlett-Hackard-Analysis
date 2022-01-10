@@ -35,7 +35,6 @@ The summary addresses the two questions and contains two additional queries or t
 
 <img width="551" alt="Percent_Emp_Leaving" src="https://user-images.githubusercontent.com/46324081/148718615-a7bb6a05-eec3-44a5-ba38-fcd32d897751.PNG">
 
-<img width="551" alt="mentee_mentor" src="https://user-images.githubusercontent.com/46324081/148719687-12f754a3-307c-482a-841d-42eeaba3a3e6.PNG">
-
+<img width="551" alt="mentee_mentor" src="https://user-images.githubusercontent.com/46324081/148729443-3aae5e46-ae94-4bff-b108-258f7f80fbd6.PNG">
 
 Figure out average age before and after the departures.
