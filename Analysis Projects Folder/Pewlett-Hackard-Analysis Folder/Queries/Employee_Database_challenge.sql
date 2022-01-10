@@ -41,3 +41,13 @@ ON t.emp_no = e.emp_no
 WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 AND de.to_date = '9999-01-01'
 ORDER BY e.emp_no;
+
+
+-- Deliverable #3
+-- Current employees versus soon_to_retire and percent_leaving
+SELECT COUNT(de.emp_no) AS current_employees, COUNT(u.emp_no) AS soon_to_retire,
+ROUND(COUNT(u.title) * 100.0/COUNT(de.emp_no), 2) AS percent_leaving
+FROM unique_titles u
+FULL OUTER JOIN dept_emp de
+ON u.emp_no = de.emp_no
+WHERE to_date = '9999-01-01';
