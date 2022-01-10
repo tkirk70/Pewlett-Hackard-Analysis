@@ -46,3 +46,7 @@ Figure out average age before and after the departures.
    Average age of remaining workers
 
    <img width="392" alt="avg_age_remaining" src="https://user-images.githubusercontent.com/46324081/148790176-9706368b-1730-45db-b882-2d07355393fe.PNG">
+   
+How will salaries be affected?
+
+   <img width="435" alt="retiring_avg_salary" src="https://user-images.githubusercontent.com/46324081/148797948-f72bae6c-d4b5-4f89-8da7-aba35727ff44.PNG">
