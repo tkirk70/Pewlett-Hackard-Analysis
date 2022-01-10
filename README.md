@@ -32,3 +32,5 @@ There is a bulleted list with four major points from the two analysis deliverabl
 Summary:
 
 The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
+
+<img width="551" alt="Percent_Emp_Leaving" src="https://user-images.githubusercontent.com/46324081/148718615-a7bb6a05-eec3-44a5-ba38-fcd32d897751.PNG">
